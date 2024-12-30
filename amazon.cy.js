@@ -17,7 +17,7 @@ describe('template spec', () => {
 
     cy.get('#ap-account-fixup-phone-skip-link').click()
 
-    // Remove qualquer estilo que impeça a interação e realiza a busca por "Alexa"
+    // Remove qualquer estilo que impeça a interação e realiza a busca por qualquer produto
 cy.get('#searchDropdownBox')
 .parent()
 .invoke('removeAttr', 'style') 
