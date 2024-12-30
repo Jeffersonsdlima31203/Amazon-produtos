@@ -12,7 +12,7 @@ describe('template spec', () => {
 
     cy.get('#ap_email').type('jeff.automation1@gmail.com')
     cy.get('.a-button-inner > #continue').click()
-    cy.get('#ap_password').type('Kjp131417!')
+    cy.get('#ap_password').type('###########')
     cy.get('#signInSubmit').click()
 
     cy.get('#ap-account-fixup-phone-skip-link').click()
